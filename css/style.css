@@ -44,3 +44,13 @@ letter-spacing: 0.3px;
     gap: 20px;
     align-items: center;
 }
+
+.hero{
+    padding-top: 308px;
+    padding-bottom: 326px;
+    text-align: center;
+    background-image: url(../img/herobegraund.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
