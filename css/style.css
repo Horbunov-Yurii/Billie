@@ -1,56 +1,94 @@
 body {
-    font-family: "Roboto", sans-serif;
-}
-.container{
-    width: 1426px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 1px solid red;
-}
-.header{
-    padding-top: 13px;
-    padding-bottom: 13px;
-    background-color: #FFFFFF;
-}
-.header-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-list{
-    display: flex;
-    gap: 20px;
-}
-.nav-link{
-    color: #000;
-text-align: center;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.16;
-letter-spacing: 0.3px;
-}
-.header-link{
-    color: #000;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.16; /* 116.667% */
-    letter-spacing: 0.3px;
-}
-.header-list{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
-.hero{
-    padding-top: 308px;
-    padding-bottom: 326px;
-    text-align: center;
-    background-image: url(../img/herobegraund.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.container {
+  width: 1426px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
+.header {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #ffffff;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.3px;
+}
+
+.header-link {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.3px;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hero {
+  padding-top: 308px;
+  padding-bottom: 326px;
+  text-align: center;
+  background-image: url(../img/herobegraund.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 66px;
+  font-weight: 400;
+  line-height: 1.04;
+}
+
+.hero-text {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.27;
+  margin-top: 23px;
+}
+
+.hero-btn {
+  border-radius: 999px;
+  background: #fff;
+  border: 0px;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.45;
+  text-transform: uppercase;
+  padding: 1px 105px;
+  margin-top: 45px;
 }
